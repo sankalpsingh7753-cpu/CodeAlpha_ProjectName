@@ -1,6 +1,5 @@
 # =====================================================
 #  STOCK PORTFOLIO TRACKER
-#  A simple console program (no internet, no libraries)
 # =====================================================
 
 # 1. Dictionary of stocks: key = stock symbol, value = price (in rupees)
