@@ -1,11 +1,8 @@
 # ==================================================
 # BASIC CHATBOT
-# A simple rule-based chatbot using only built-in Python
 # ==================================================
 
-# --------------------------------------------------
 # 1. Welcome message
-# --------------------------------------------------
 print("====================================")
 print("        BASIC CHATBOT")
 print("====================================")
@@ -18,9 +15,7 @@ print("====================================")
 print()
 
 
-# --------------------------------------------------
 # 2. Function that decides the chatbot's reply
-# --------------------------------------------------
 def chatbot_response(user_input):
     # Compare the user's message with each predefined rule
     if user_input == "hello":
@@ -64,9 +59,7 @@ def chatbot_response(user_input):
         return 'Sorry, I don\'t understand that. Try typing "help" to see what I can understand.'
 
 
-# --------------------------------------------------
 # 3. Main chatbot loop
-# --------------------------------------------------
 while True:
     # Take input from the user
     # .lower() makes the input case-insensitive
