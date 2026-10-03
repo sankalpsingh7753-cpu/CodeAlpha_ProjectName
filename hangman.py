@@ -1,6 +1,5 @@
-# Hangman Game - a simple console game for beginners
-
-import random  # built-in module used to pick a random word
+# Hangman Game
+import random  
 
 # 1. List of 5 predefined words (all computer/technology related)
 words = ["python", "computer", "program", "keyboard", "internet"]
